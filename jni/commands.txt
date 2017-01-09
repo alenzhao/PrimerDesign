@@ -1,0 +1,5 @@
+
+gcc -dynamiclib -o libPrimer3.dylib -std=gnu99 -O3 -fomit-frame-pointer -fstrict-aliasing -mpentiumpro -msse2 -I/scratch/gunturus/apps/primer3-2.3.6/src/ -I/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include/ -I/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include/darwin/ -L/scratch/gunturus/apps/primer3-2.3.6/src/ edu_msu_cme_rdp_primerdesign_utils_Primer3Wrapper.c -loligotm
+
+gcc -dynamiclib -o libPrimer3.dylib -O3 edu_msu_cme_rdp_primerdesign_utils_Primer3Wrapper.c -I/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include/ -I/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include/darwin/ -I/home/gunturus/primer3/primer3-py-0.4.1/primer3/src/libprimer3/ -L/home/gunturus/primer3/primer3-py-0.4.1/primer3/src/libprimer3/ -loligotm -lthal 
+
