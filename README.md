@@ -30,3 +30,7 @@ Sample Select Command (with Sliding Scale)
 ```
 java -jar /path/to/PrimerDesign.jar -subcommand select -input /path/to/refSequences.fasta -SlidingScale true -productLengthMin 150 -productLengthMax 250 -oligoMinSize 15 -oligoMaxSize 30 -maxMismatches 2 -tempMin 55 -tempMax 63 -hairMax 35 -homoMax 35 -isTreeWeightNeeded f -isHenikoffWeightNeeded t -os mac -output /work/leotift/CmdLineResults -assayMax 30 -degenMax 6 -NoTEndFilter t -NoPoly3GCFilter t -PolyRunFilter 4 -GCFilterMin 0.45 -GCFilterMax 0.7 -sodiumConc 50.0 -magnesConc 1.5
 ```
+
+## Step Up
+
+The project depends on readseq and primer3.
