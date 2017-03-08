@@ -11,7 +11,7 @@ Some commands depend on RDP ReadSeq and the open source program primer3 that can
 The default subcommand to Primer Design is select.
 
 
-usage: java -Xmx8g -jar /path/to/PrimerDesign.jar [--help] (-i|--input) <FastaFile>
+java -Xmx8g -jar /path/to/PrimerDesign.jar [--help] (-i|--input) <FastaFile>
             (-o|--onput) <Output>
     --assayMax <assayMax>                               assayMax (default:
                                                         20) - Maxiumum
