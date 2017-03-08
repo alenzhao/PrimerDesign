@@ -8,7 +8,7 @@ Some commands depend on RDP ReadSeq and the open source program primer3 that can
 
 ## Usage
 
-The default subcommand to Primer Design is select. 
+The default subcommand to Primer Design is select.  
 
 
 java -Xmx8g -jar /path/to/PrimerDesign.jar [--help] (-i|--input) <FastaFile>
