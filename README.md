@@ -33,4 +33,4 @@ java -jar /path/to/PrimerDesign.jar -subcommand select -input /path/to/refSequen
 
 ## Step Up
 
-Some commands in this tutorial depend on RDP ReadSeq and the open source program primer3. See RDPTools (https://github.com/rdpstaff/RDPTools) to install ReadSeq. 
+Some commands depend on RDP ReadSeq and the open source program primer3. See RDPTools (https://github.com/rdpstaff/RDPTools) to install ReadSeq. 
