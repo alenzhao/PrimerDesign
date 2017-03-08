@@ -245,6 +245,42 @@ java -Xmx8g -jar /path/to/PrimerDesign.jar [--help] (-i|--input) <FastaFile>
                                                         55) - Oligo min
                                                         melting
                                                         temperature
+                                                        
+                                                        
+-c,--conf <arg>             assignment confidence cutoff used to determine the
+                             assignment count for each taxon. Range [0-1],
+                             Default is 0.8.
+ -f,--format <arg>           tab-delimited output format:
+                             [allrank|fixrank|biom|filterbyconf|db]. Default is
+                             allRank.
+                             allrank: outputs the results for all ranks applied
+                             for each sequence: seqname, orientation, taxon
+                             name, rank, conf, ...
+                             fixrank: only outputs the results for fixed ranks
+                             in order: domain, phylum, class, order, family,
+                             genus
+                             biom: outputs rich dense biom format if OTU or
+                             metadata provided
+                             filterbyconf: only outputs the results for major
+                             ranks as in fixrank, results below the confidence
+                             cutoff were bin to a higher rank unclassified_node
+                             db: outputs the seqname, trainset_no, tax_id, conf.
+ -g,--gene <arg>             16srrna, fungallsu, fungalits_warcup, 
+                             fungalits_unite. Default is 16srrna. This option 
+                             can be overwritten by -t option
+ -h,--hier_outfile <arg>     tab-delimited output file containing the assignment
+                             count for each taxon in the hierarchical format.
+                             Default is null.
+ -o,--outputFile <arg>       tab-delimited text output file for classification
+                             assignment.
+ -q,--queryFile              legacy option, no longer needed
+ -t,--train_propfile <arg>   property file containing the mapping of the
+                             training files if not using the default. Note: the
+                             training files and the property file should be in
+                             the same directory.
+ -w,--minWords <arg>         minimum number of words for each bootstrap trial.
+                             Default(maximum) is 1/8 of the words of each
+                             sequence. Minimum is 5
 
 RDP Primer Design Subcommands: Screen and Select
 
