@@ -59,6 +59,7 @@ java -Xmx8g -jar /path/to/PrimerDesign.jar [--help]
                                                         Recommend leaving
                                                         at default if
                                                         unsure
+ ```                                                       
  -h,--help                                              Shows this help
     --hairMax <hairMax>                                 hairMax (default:
                                                         35) - Hairpin
@@ -246,7 +247,7 @@ java -Xmx8g -jar /path/to/PrimerDesign.jar [--help]
                                                         melting
                                                         temperature
                                                         
-                                                        
+```                                                        
 
 RDP Primer Design Subcommands: Screen and Select
 
