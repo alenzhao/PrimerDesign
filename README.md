@@ -1,6 +1,6 @@
 # PrimerDesign
 
-The Primer Design terminal program produces thermodynamically stable primer pairs for qPCR from an input of aligned nucleotide sequences. The input nucleotide sequences should be in the FASTA format. This is the main subcommand known as select. A preliminary subcommand is screen which produces a graph of the coverage and the entropy for each position of the input reference sequences. 
+The Primer Design terminal program produces thermodynamically stable primer pairs for qPCR from an input of aligned nucleotide sequences. This is the main subcommand known as select. A preliminary subcommand is screen which produces a graph of the coverage and the entropy for each position of the input reference sequences. The input nucleotide sequences should be in the FASTA format. 
 
 ## Set Up
 
