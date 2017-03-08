@@ -277,7 +277,7 @@ java -jar /path/to/PrimerDesign.jar -subcommand select -input /path/to/refSequen
 ```
 
 Sample Output File of the Select subcommand 
-(Input parameters, degenerate pairs with foward and reverse list, and sequences hit by each pair):
+(Input parameters, degenerate pairs with foward and reverse oligos, and sequences hit by each pair):
 ```
 Michigan State University: RDP Primer Design
 --------------------------------------------
